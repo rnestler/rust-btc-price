@@ -1,0 +1,8 @@
+[package]
+name = "rust-btc-price"
+version = "0.1.0"
+authors = ["Raphael Nestler <raphael.nestler@gmail.com>"]
+
+[dependencies]
+hyper="^0.9"
+json="^0.10"
