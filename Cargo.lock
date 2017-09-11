@@ -3,7 +3,7 @@ name = "rust-btc-price"
 version = "0.1.0"
 dependencies = [
  "hyper 0.10.13 (registry+https://github.com/rust-lang/crates.io-index)",
- "json 0.10.3 (registry+https://github.com/rust-lang/crates.io-index)",
+ "json 0.11.9 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -55,7 +55,7 @@ dependencies = [
 
 [[package]]
 name = "json"
-version = "0.10.3"
+version = "0.11.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
@@ -191,7 +191,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum httparse 1.2.3 (registry+https://github.com/rust-lang/crates.io-index)" = "af2f2dd97457e8fb1ae7c5a420db346af389926e36f43768b96f101546b04a07"
 "checksum hyper 0.10.13 (registry+https://github.com/rust-lang/crates.io-index)" = "368cb56b2740ebf4230520e2b90ebb0461e69034d85d1945febd9b3971426db2"
 "checksum idna 0.1.4 (registry+https://github.com/rust-lang/crates.io-index)" = "014b298351066f1512874135335d62a789ffe78a9974f94b43ed5621951eaf7d"
-"checksum json 0.10.3 (registry+https://github.com/rust-lang/crates.io-index)" = "f3fb4510c0dbc38f7f43bdbe8b53defae0cd338b81ef416462a0ef69d600165c"
+"checksum json 0.11.9 (registry+https://github.com/rust-lang/crates.io-index)" = "c2b0b20012c690c7f0578893637d3b4b61511e3fe4774389b5e77dd8023bc3e4"
 "checksum kernel32-sys 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" = "7507624b29483431c0ba2d82aece8ca6cdba9382bff4ddd0f7490560c056098d"
 "checksum language-tags 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" = "a91d884b6667cd606bb5a69aa0c99ba811a115fc68915e7056ec08a46e93199a"
 "checksum libc 0.2.30 (registry+https://github.com/rust-lang/crates.io-index)" = "2370ca07ec338939e356443dac2296f581453c35fe1e3a3ed06023c49435f915"

@@ -5,4 +5,4 @@ authors = ["Raphael Nestler <raphael.nestler@gmail.com>"]
 
 [dependencies]
 hyper="^0.10"
-json="^0.10"
+json="^0.11"
