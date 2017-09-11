@@ -8,7 +8,7 @@ fn main() {
     let client = Client::new();
 
     let mut current_price_request =
-        client.get("https://api.coindesk.com/v1/bpi/currentprice.json").send().unwrap();
+        client.get("http://api.coindesk.com/v1/bpi/currentprice.json").send().unwrap();
 
     let mut current_price_json = String::new();
     current_price_request.read_to_string(&mut current_price_json).unwrap();
